@@ -1,0 +1,17 @@
+{
+    "name": "test-typescript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "workspaces": [
+        "package-one",
+        "package-two",
+        "package-main"
+    ],
+    "devDependencies": {
+        "typescript": "^4.9.4"
+    },
+    "dependencies": {
+        "package-one": "^1.0.0"
+    }
+}
